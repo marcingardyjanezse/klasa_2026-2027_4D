@@ -8,6 +8,12 @@
         <Label Text="Roksana"/>
         <Label Text="Jakub"/>
         <Label Text="Mikołaj"/>
+
+        <HorizontalStackLayout>
+            <Button Text="Czerwony" BackgroundColor="Red"/>
+            <Button Text="Zielony" BackgroundColor="Green"/>
+            <Button Text="Niebieski" BackgroundColor="Blue"/>
+        </HorizontalStackLayout>
         
     </VerticalStackLayout>
 
