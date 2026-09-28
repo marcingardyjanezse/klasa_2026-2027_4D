@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp11.MainPage">
+
+    <VerticalStackLayout>
+        <Label Text="Imie:"/>
+        <Label Text="Nazwisko:"/>
+
+        <HorizontalStackLayout>
+            <Button Text="Wyślij"/>
+            <Button Text="Edytuj" Background="#FF7000"/>
+            <Button Text="Usuń" Background="#FF0000"/>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+
+</ContentPage>
