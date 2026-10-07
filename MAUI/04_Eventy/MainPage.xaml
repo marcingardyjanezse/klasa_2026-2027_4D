@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp14.MainPage">
+
+    <StackLayout>
+
+        <Grid
+            RowDefinitions="*,*,*,*"
+            ColumnDefinitions="*,2*">
+
+            <!--<Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>-->
+
+            <Label Text="Wartość A:" Grid.Column="0" Grid.Row="0"/>
+            <Entry x:Name="ValueA" Grid.Column="1" Grid.Row="0"/>
+
+            <Label Text="Wartość B:"  Grid.Column="0" Grid.Row="1"/>
+            <Entry x:Name="ValueB" Grid.Column="1" Grid.Row="1"/>
+
+            <Label Text="Wynik:"  Grid.Column="0" Grid.Row="2"/>
+            <Entry x:Name="Result" Grid.Column="1" Grid.Row="2"/>
+            
+        </Grid>
+
+        <Button Clicked="AddButtonClicked" Text="Dodaj"/>
+        
+    </StackLayout>
+
+</ContentPage>
